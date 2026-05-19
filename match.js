@@ -14,5 +14,7 @@ let possui = precisa.filter((item)=>{
 let qtdPossui = possui.length
 let qtd = precisa.length
 
-let porcentagem = 
+let porcentagem = Math.round((qtdPossui/qtd)*100);
+
+console.log(`A porcentagem é de: ${porcentagem}%`);
 
