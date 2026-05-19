@@ -11,8 +11,15 @@ let falta = precisa.filter((item)=>{
 let possui = precisa.filter((item)=>{
     return tenho.includes(item)
 })
+
 let qtdPossui = possui.length
 let qtd = precisa.length
 
-let porcentagem = 
+let porcentagem = (qtdPossui / qtd) * 100 ;
+alert(`Faltam ${falta} `)
+alert(`Possui ${qtdPossui} de ${qtd} , ${porcentagem}%`) 
+
+
+
+
 
