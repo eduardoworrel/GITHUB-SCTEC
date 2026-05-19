@@ -14,8 +14,4 @@ let possui = precisa.filter((item)=>{
 let qtdPossui = possui.length
 let qtd = precisa.length
 
-let porcentagem = qtdPossui/qtd * 100
-
-console.log(`Faltam ${falta}`)
-console.log(`Possui ${qtdPossui} de ${qtd} itens, o que corresponde a ${porcentagem}%.`)
-
+let porcentagem = 
