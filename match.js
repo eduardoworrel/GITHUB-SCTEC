@@ -16,6 +16,8 @@ for(let item of precisa){
     }
 }
 
+
+
 let falta = precisa.filter((item)=>{
     return !tenho.includes(item)
 })
